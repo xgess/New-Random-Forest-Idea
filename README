@@ -6,4 +6,7 @@ a distribution before choosing the predictor variables to use at each node. my t
 some nodes in each tree to be much more optimal than other nodes. since the trees are grown out completely (i.e. not
 pruned) this might make a difference. tests indicate nothing conclusive. the professor of the class and i both
 agree it is worth exploring further with more data and a faster implementation coded in something other than R.
+
+the main code (building and traversing of the trees) is in randomForestM.R and the test scripts are in the files
+that begin with overnight. there are comparisons with the standard random forest code in those test scripts. 
 ****************************
