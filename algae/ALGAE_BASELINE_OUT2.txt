@@ -1,0 +1,16 @@
+percent correct algae, m=1 is 0.842857 
+
+percent correct algae, m=2 is 0.807143 
+
+percent correct algae, m=3 is 0.814286 
+
+percent correct algae, m=4 is 0.835714 
+
+percent correct algae, m=5 is 0.835714 
+
+percent correct algae, m=6 is 0.828571 
+
+percent correct algae, m=7 is 0.821429 
+
+percent correct algae, m=8 is 0.835714 
+
