@@ -1,0 +1,9 @@
+***************************
+random forests typically work by using a set value for M, the number of predictor variables chosen randomly 
+without replacement at each node of each tree, somewhere between 40 and 60% of the total predictor variables.
+in an attempt to increase diversity without losing accuracy (for each of the trees) this code draws M from
+a distribution before choosing the predictor variables to use at each node. my thought is that this will allow
+some nodes in each tree to be much more optimal than other nodes. since the trees are grown out completely (i.e. not
+pruned) this might make a difference. tests indicate nothing conclusive. the professor of the class and i both
+agree it is worth exploring further with more data and a faster implementation coded in something other than R.
+****************************
